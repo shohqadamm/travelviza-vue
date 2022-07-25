@@ -36,15 +36,15 @@
       <div class="header-bottom bg-white rounded-full drop-shadow-2xl">
         <ul class="header-list flex items-center px-8 py-3 justify-between">
           <li class="header-list-item">
-            <a class="{isActive: active}" href="#">link1</a>
+            <router-link class="{isActive: active}" to="/">Главная</router-link>
           </li>
-          <li class="header-list-item"><a href="#">link2</a></li>
-          <li class="header-list-item"><a href="#">link3</a></li>
-          <li class="header-list-item"><a href="#">link4</a></li>
-          <li class="header-list-item"><a href="#">link5</a></li>
-          <li class="header-list-item"><a href="#">link6</a></li>
-          <li class="header-list-item"><a href="#">link7</a></li>
-          <li class="header-list-item"><a href="#">link8</a></li>
+          <li class="header-list-item"><router-link to="/shengen">Шенген</router-link></li>
+          <li class="header-list-item"><router-link to="/europe">Европа</router-link></li>
+          <li class="header-list-item"><router-link to="/africa">Африка</router-link></li>
+          <li class="header-list-item"><router-link to="/amerika">Америка</router-link></li>
+          <li class="header-list-item"><router-link to="/asia">Азия</router-link></li>
+          <li class="header-list-item"><router-link to="/news">Новости</router-link></li>
+          <li class="header-list-item"><router-link to="/contacts">Контакты</router-link></li>
           <li class="header-list-item search-input flex items-center pr-1 overflow-hidden border-black border-2 rounded-2xl">
             <input type="text" class="p-2"/>
             <div class="search-input-icon">

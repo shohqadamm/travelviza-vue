@@ -3,16 +3,16 @@
     <div class="footer-top bg-yellow-400">
       <div class="container mx-auto">
         <ul class="header-list flex items-center px-8 py-3 justify-between">
-          <li class="header-list-item">
-            <router-link class="{isActive: active}" to="#">link1</router-link>
+           <li class="header-list-item">
+            <router-link class="{isActive: active}" to="/">Главная</router-link>
           </li>
-          <li class="header-list-item"><router-link to="#">link2</router-link></li>
-          <li class="header-list-item"><router-link to="#">link3</router-link></li>
-          <li class="header-list-item"><router-link to="#">link4</router-link></li>
-          <li class="header-list-item"><router-link to="#">link5</router-link></li>
-          <li class="header-list-item"><router-link to="#">link6</router-link></li>
-          <li class="header-list-item"><router-link to="#">link7</router-link></li>
-          <li class="header-list-item"><router-link to="#">link8</router-link></li>
+          <li class="header-list-item"><router-link to="/shengen">Шенген</router-link></li>
+          <li class="header-list-item"><router-link to="/europe">Европа</router-link></li>
+          <li class="header-list-item"><router-link to="/africa">Африка</router-link></li>
+          <li class="header-list-item"><router-link to="/amerika">Америка</router-link></li>
+          <li class="header-list-item"><router-link to="/asia">Азия</router-link></li>
+          <li class="header-list-item"><router-link to="/news">Новости</router-link></li>
+          <li class="header-list-item"><router-link to="/contacts">Контакты</router-link></li>
         </ul>
       </div>
     </div>
@@ -58,7 +58,17 @@
           © 2021 TRAVELVIZA.BY <br />
           Агентство визовой поддержки
         </p>
-        <div class="p-5 bg-white inline-block float-right mt-5 rounded-2xl cursor-pointer">
+        <div
+          class="
+            p-5
+            bg-white
+            inline-block
+            float-right
+            mt-5
+            rounded-2xl
+            cursor-pointer
+          "
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6"

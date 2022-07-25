@@ -1,6 +1,6 @@
 <template>
-  <div class="shengen">
-    <h1>Africa</h1>
+  <div class="africa pt-96">
+    <h1 class="text-3xl font-bold">Africa</h1>
   </div>
 </template>
 

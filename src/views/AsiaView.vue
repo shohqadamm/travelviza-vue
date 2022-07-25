@@ -1,6 +1,6 @@
 <template>
-  <div class="shengen">
-    <h1>Asia</h1>
+  <div class="asia pt-96">
+    <h1 class="text-3xl font-bold">Asia</h1>
   </div>
 </template>
 

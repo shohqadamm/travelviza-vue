@@ -9,7 +9,7 @@
           Оформляй визу любого типа на нашем сайте и получай удовольствие,
           будучи в любой точке мира!
         </p>
-        <p>Заказать визу</p>
+        <p class="bg-yellow-300 p-4 shadow-2xl shadow-yellow-300 inline-block font-extrabold text-xl">Заказать визу</p>
       </div>
       <div class="absolute right-5">
         <SliderComponent />

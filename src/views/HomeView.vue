@@ -2,7 +2,7 @@
   <div class="home">
     <HomeShowcaseComponent/>
     <BookComponent />
-    <div class="my-5 container mx-auto">
+    <div class="my-5 container">
       <h1 class="text-3xl mb-3 font-extrabold text-center">Наши достоинства</h1>
       <div class="flex justify-center">
         <BasicCard

@@ -1,6 +1,6 @@
 <template>
   <div class="shengen pt-96">
-    <h1>Shengen</h1>
+    <h1  class="text-3xl font-bold">Shengen</h1>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
-  <div class="shengen">
-    <h1>Contacts</h1>
+  <div class="contacts pt-96">
+    <h1 class="text-3xl font-bold">Contacts</h1>
   </div>
 </template>
 
