@@ -1,6 +1,6 @@
 /* eslint-disable */
 <template>
-  <div class="header">
+  <div class="header absolute w-full">
     <div class="container lg mx-auto py-3">
       <div class="header-top flex justify-between mb-4">
         <div class="logo">
@@ -33,7 +33,7 @@
           </div>
         </div>
       </div>
-      <div class="header-bottom bg-white rounded-2xl">
+      <div class="header-bottom bg-white rounded-full drop-shadow-2xl">
         <ul class="header-list flex items-center px-8 py-3 justify-between">
           <li class="header-list-item">
             <a class="{isActive: active}" href="#">link1</a>
