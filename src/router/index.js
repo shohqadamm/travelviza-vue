@@ -53,9 +53,14 @@ const routes = [
     component:AsiaView
   },
   {
-    path: '/europe',
+    path: '/europe/',
     name: 'europe',
     component:EuropeView
+  }
+  ,
+  {
+    path: '/visa-to-:id',
+    component:()=> import('../views/CountryView.vue')
   }
 ]
 

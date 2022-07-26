@@ -20,6 +20,9 @@ export default {
   components: {
     HeaderVue,
     FooterComponentVue
+  },
+  data(){
+    // salom : 'asdf'
   }
 }
 </script>

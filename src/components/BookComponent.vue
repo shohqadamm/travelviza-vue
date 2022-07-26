@@ -1,5 +1,5 @@
 <template>
-  <div class="flex container mx-auto mb-7 mt-16 relative rounded-lg px-5 bg-sky-800 py-10">
+  <div class="flex container mx-auto mb-7 mt-32 relative rounded-lg px-5 bg-sky-800 py-10">
     <div>
       <h1 class="font-extrabold text-white text-4xl mb-10">
         Закажите любую услугу, и мы с Вами свяжемся в течении 30 минут!

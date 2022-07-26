@@ -2,11 +2,11 @@
 <div>
   <h1 class="text-white font-bold text-center text-2xl mb-3">Горящие предложения:</h1>
 </div>
-  <agile class="agile-no-nav" :navButtons="false" :autoplay="true">
+  <agile class="agile-no-nav" :navButtons="false" :autoplay="false">
     <div class="slide bg-white rounded-lg p-4">
       <h1 class="text-black text-center text-xl font-bold">Виза в Литву</h1>
       <img class="mx-auto my-5" src="../assets/images/litva-tsenyi1.png" alt="" />
-      <p class="text-black text-center mb-3">
+      <p class="text-black text-center mb-3 leading-none text-sm">
         Мультивиза туристическая 3-12 месяцев Стоимость — 60 BYN Срок пребывания
         30-90 дней Срок получения: до 14 дней Мультивиза деловая 6-24 месяцев
         Стоимость — 225 BYN Срок пребывания: 6-24 мес Срок получения: 10 — 15
@@ -20,7 +20,7 @@
     <div class="slide bg-white rounded-lg p-4">
       <h1 class="text-black text-center text-xl font-bold">Виза в Литву</h1>
       <img class="mx-auto my-5" src="../assets/images/litva-tsenyi1.png" alt="" />
-      <p class="text-black text-center mb-3">
+      <p class="text-black text-center mb-3 leading-none text-sm">
         Мультивиза туристическая 3-12 месяцев Стоимость — 60 BYN Срок пребывания
         30-90 дней Срок получения: до 14 дней Мультивиза деловая 6-24 месяцев
         Стоимость — 225 BYN Срок пребывания: 6-24 мес Срок получения: 10 — 15
@@ -34,7 +34,7 @@
       <div class="slide bg-white rounded-lg p-4">
       <h1 class="text-black text-center text-xl font-bold">Виза в Литву</h1>
       <img class="mx-auto my-5" src="../assets/images/litva-tsenyi1.png" alt="" />
-      <p class="text-black text-center mb-3">
+      <p class="text-black text-center mb-3 leading-none text-sm">
         Мультивиза туристическая 3-12 месяцев Стоимость — 60 BYN Срок пребывания
         30-90 дней Срок получения: до 14 дней Мультивиза деловая 6-24 месяцев
         Стоимость — 225 BYN Срок пребывания: 6-24 мес Срок получения: 10 — 15
@@ -48,7 +48,7 @@
       <div class="slide bg-white rounded-lg p-4">
       <h1 class="text-black text-center text-xl font-bold">Виза в Литву</h1>
       <img class="mx-auto my-5" src="../assets/images/litva-tsenyi1.png" alt="" />
-      <p class="text-black text-center mb-3">
+      <p class="text-black text-center mb-3 leading-none text-sm">
         Мультивиза туристическая 3-12 месяцев Стоимость — 60 BYN Срок пребывания
         30-90 дней Срок получения: до 14 дней Мультивиза деловая 6-24 месяцев
         Стоимость — 225 BYN Срок пребывания: 6-24 мес Срок получения: 10 — 15
@@ -62,7 +62,7 @@
       <div class="slide bg-white rounded-lg p-4">
       <h1 class="text-black text-center text-xl font-bold">Виза в Литву</h1>
       <img class="mx-auto my-5" src="../assets/images/litva-tsenyi1.png" alt="" />
-      <p class="text-black text-center mb-3">
+      <p class="text-black text-center mb-3 leading-none text-sm">
         Мультивиза туристическая 3-12 месяцев Стоимость — 60 BYN Срок пребывания
         30-90 дней Срок получения: до 14 дней Мультивиза деловая 6-24 месяцев
         Стоимость — 225 BYN Срок пребывания: 6-24 мес Срок получения: 10 — 15
@@ -76,7 +76,7 @@
       <div class="slide bg-white rounded-lg p-4">
       <h1 class="text-black text-center text-xl font-bold">Виза в Литву</h1>
       <img class="mx-auto my-5" src="../assets/images/litva-tsenyi1.png" alt="" />
-      <p class="text-black text-center mb-3">
+      <p class="text-black text-center mb-3 leading-none text-sm">
         Мультивиза туристическая 3-12 месяцев Стоимость — 60 BYN Срок пребывания
         30-90 дней Срок получения: до 14 дней Мультивиза деловая 6-24 месяцев
         Стоимость — 225 BYN Срок пребывания: 6-24 мес Срок получения: 10 — 15
@@ -90,7 +90,7 @@
       <div class="slide bg-white rounded-lg p-4">
       <h1 class="text-black text-center text-xl font-bold">Виза в Литву</h1>
       <img class="mx-auto my-5" src="../assets/images/litva-tsenyi1.png" alt="" />
-      <p class="text-black text-center mb-3">
+      <p class="text-black text-center mb-3 leading-none text-sm">
         Мультивиза туристическая 3-12 месяцев Стоимость — 60 BYN Срок пребывания
         30-90 дней Срок получения: до 14 дней Мультивиза деловая 6-24 месяцев
         Стоимость — 225 BYN Срок пребывания: 6-24 мес Срок получения: 10 — 15
@@ -167,13 +167,13 @@ export default {
 
 .slide {
   display: block;
-  /* height: 350px; */
+  width: 150px;
+  height: 400px;
   -o-object-fit: cover;
   object-fit: cover;
-  width: 200px;
 }
 .agile-no-nav {
-  width: 400px;
+  width: 500px;
 }
 /* .agile img{
     height: 100%;
