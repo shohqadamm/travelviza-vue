@@ -1,6 +1,6 @@
 <template>
   <div class="w-1/3">
-    <!-- <img :src="require(`@/assets/images/${image}`)" alt="" /> -->
+    <img :src="require(`@/assets/images/${image}`)" alt="" />
     <h1 class="font-bold text-xl text-center">{{countryName}}</h1>
   </div>
 </template>
@@ -9,7 +9,7 @@
 export default {
   name: "CountryItem",
   props:{
-    // image: String,
+    image: String,
     countryName: String,
   }
 };

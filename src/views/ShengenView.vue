@@ -5,9 +5,8 @@
       <div class="flex container">
         <h1 class="text-black font-bold text-3xl">Шенген</h1>
         <div class="flex flex-wrap shadow-lg mx-3 my-5 p-5">
-          <CountryItem v-for="(country, index) in countries" :key="index" :countryName="country.countryName"/>
+          <CountryItem v-for="(country, index) in countries" :key="index" :countryName="country.countryName" :image="country.image" />
         </div>
- 
       <NewsCard/>
  </div>
  <div class="container">
@@ -35,43 +34,43 @@ data(){
   return{
     countries:[
       {
-        image:'',
+        image:'latvia/Latvia-150x150.png',
         countryName: 'Виза в Латвию'
       },
        {
-        image:'',
+        image:'latvia/czech_republic-150x1501.png',
         countryName: 'Виза в Чехию'
       },
        {
-        image:'',
+        image:'latvia/Estonia-150x1501.png',
         countryName: 'Виза в Эстонию'
       },
        {
-        image:'',
+        image:'latvia/Finland-150x1501.png',
         countryName: 'Виза в Финляндию'
       },
        {
-        image:'',
+        image:'latvia/Italy-150x1501.png',
         countryName: 'Виза в Италия'
       },
        {
-        image:'',
+        image:'latvia/poland-150x1501.jpg',
         countryName: 'Виза в Польшу'
       },
        {
-        image:'',
+        image:'latvia/espania-150x1501.png',
         countryName: 'Виза в Испанию'
       },
        {
-        image:'',
+        image:'latvia/greece-150x1501.png',
         countryName: 'Виза в Грецию'
       },
        {
-        image:'',
+        image:'latvia/Hungary-150x1501.png',
         countryName: 'Виза в Венгрию'
       },
        {
-        image:'',
+        image:'latvia/Finland-150x1501.png',
         countryName: 'Виза в Францию'
       }
     ]

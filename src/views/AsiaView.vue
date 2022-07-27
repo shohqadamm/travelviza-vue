@@ -6,7 +6,7 @@
         <div>
           <h1 class="text-black font-bold text-3xl">Азия</h1>
           <div class="flex flex-wrap shadow-lg mr-5 my-5 p-5">
-            <CountryItem v-for="(country, index) in countries" :key="index" :countryName="country.countryName"/>
+            <CountryItem v-for="(country, index) in countries" :key="index" :countryName="country.countryName" :image="country.image" />
           </div>
         </div>
       <NewsCard/>
@@ -36,31 +36,31 @@ data(){
   return{
     countries:[
       {
-        image:'',
+        image:'asia/Hong_Kong-150x1501.png',
         countryName: 'Виза в Гонконг'
       },
        {
-        image:'',
+        image:'asia/India-150x1501.png',
         countryName: 'Виза в Индию'
       },
        {
-        image:'',
+        image:'asia/China-150x1501.png',
         countryName: 'Виза в Китай'
       },
        {
-        image:'',
+        image:'asia/UAEmirates-150x1501.png',
         countryName: 'Виза в ОАЭ'
       },
        {
-        image:'',
+        image:'asia/Thailand-150x1501.png',
         countryName: 'Виза в Таиланд'
       },
        {
-        image:'',
+        image:'asia/Philippines-150x1501.png',
         countryName: 'Виза в Филлипины'
       },
        {
-        image:'',
+        image:'asia/South_Korea-150x1501.png',
         countryName: 'Виза в Южную Корею'
       }
     ]

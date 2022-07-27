@@ -6,7 +6,7 @@
         <div>
           <h1 class="text-black font-bold text-3xl">Европа</h1>
           <div class="flex flex-wrap shadow-lg mr-5 my-5 p-5">
-            <CountryItem v-for="(country, index) in countries" :key="index" :countryName="country.countryName"/>
+            <CountryItem v-for="(country, index) in countries" :key="index" :countryName="country.countryName" :image="country.image" />
           </div>
         </div>
       <NewsCard/>
@@ -36,15 +36,15 @@ data(){
   return{
     countries:[
       {
-        image:'',
+        image:'europe/bulgarian-150x1501.png',
         countryName: 'Виза в Болгарию'
       },
        {
-        image:'',
+        image:'europe/cyprus-150x1501.png',
         countryName: 'Виза в Кипр'
       },
        {
-        image:'',
+        image:'europe/UK-150x1501.png',
         countryName: 'Виза в Великобританию'
       }
     ]
