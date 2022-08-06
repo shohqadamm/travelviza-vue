@@ -2,14 +2,15 @@
   <div class="shengen pt-80">
     <ShoowcaseComponent showcaseText="АМЕРИКА"
       bgImage="kunal-shinde--f0YLss50Bs-unsplash1.png"/>
-      <div class="flex container">
-        <div>
+      <TopCountriesCarousel/>
+      <div class="flex container mx-auto justify-between">
+        <div class="w-full">
           <h1 class="text-black font-bold text-3xl">АМЕРИКА</h1>
           <div class="flex flex-wrap shadow-lg mr-5 my-5 p-5">
             <CountryItem v-for="(country, index) in countries" :key="index" :countryName="country.countryName" :image="country.image" />
           </div>
         </div>
-      <NewsCard/>
+      <NewsCard class="w-2/5"/>
  </div>
  <div class="container">
   <BookComponent/>
@@ -22,6 +23,7 @@ import ShoowcaseComponent from '@/components/ShoowcaseComponent.vue';
 import NewsCard from '@/components/NewsCard.vue';
 import CountryItem from '@/components/CountryItem.vue';
 import BookComponent from '@/components/BookComponent.vue';
+import TopCountriesCarousel from '@/components/TopCountriesCarousel.vue';
 // @ is an alias to /src
 
 export default {
@@ -30,7 +32,8 @@ export default {
     ShoowcaseComponent,
     NewsCard,
     CountryItem,
-    BookComponent
+    BookComponent,
+    TopCountriesCarousel
 },
 data(){
   return{

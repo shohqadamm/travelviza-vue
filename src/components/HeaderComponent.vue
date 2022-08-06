@@ -1,4 +1,3 @@
-/* eslint-disable */
 <template>
   <div class="header absolute w-full">
     <div class="container lg mx-auto py-3">
@@ -45,8 +44,8 @@
           <li class="header-list-item"><router-link to="/asia">Азия</router-link></li>
           <li class="header-list-item"><router-link to="/news">Новости</router-link></li>
           <li class="header-list-item"><router-link to="/contacts">Контакты</router-link></li>
-          <li class="header-list-item search-input flex items-center pr-1 overflow-hidden border-black border-2 rounded-2xl">
-            <input type="text" class="p-2"/>
+          <li class="header-list-item search-input flex items-center pr-2 overflow-hidden border-black border-2 rounded-3xl">
+            <input type="text" class="p-2 border-0 outline-none"/>
             <div class="search-input-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

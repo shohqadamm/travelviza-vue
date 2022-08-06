@@ -91,7 +91,7 @@ export default {
 .agile__nav-button {
   background: transparent;
   border: none;
-  color: #333;
+  color:rgb(255, 0, 0);
   cursor: pointer;
   font-size: 24px;
   height: 100%;
@@ -101,9 +101,8 @@ export default {
   width: 80px;
 }
 .agile__nav-button:hover {
-  background-color: rgba(0, 0, 0, 0.5);
   opacity: 1;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .agile__nav-button--prev {
   left: 0;
@@ -122,7 +121,7 @@ export default {
 }
 .agile__dot button {
   background-color: transparent;
-  border: 1px solid #84E439;;
+  border: 1px solid #84E439;  
   border-radius: 50%;
   cursor: pointer;
   display: block;
