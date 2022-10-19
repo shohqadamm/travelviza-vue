@@ -55,9 +55,10 @@
       </div>
       <div class="footer-p">
         <p class="text-sm text-right text-white">
-          © 2021 TRAVELVIZA.BY <br />
+          © 2022 TRAVELVIZA.BY <br />
           Агентство визовой поддержки
         </p>
+        <p class="text-sm text-right text-white">Website made by <a href="https://github.com/shohqadamm">shohqadamm</a></p>
         <div
           class="
             p-5
